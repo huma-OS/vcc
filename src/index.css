@@ -1,13 +1,163 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/ailerons');
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Teko", sans-serif;
+  background: #e9e8e8;
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0 0 28px;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+img.brand-icon-header {
+  height: 55px;
+  background: unset;
+  -webkit-filter: drop-shadow(4px 4px 3px #8f8f8f);
+  filter: drop-shadow(4px 4px 3px #8f8f8f);
+}
+
+.osh-header-titles {
+  width: 210px;
+  text-shadow: 2px 2px 3px #8f8f8f;
+}
+
+@media (max-width: 358px) {
+  .osh-header-titles {
+    display: none;
+  }
+}
+
+.navbar h1 {
+  letter-spacing: 3.5px;
+  font-weight: 400;
+  font-size: 26px;
+  margin: 10px 0 0;
+  line-height: 19px;
+}
+
+.navbar p {
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar a {
+  /* margin-left: 16px; potential for desktop 0000000*/
+  text-decoration: none;
+  padding: 6px;
+}
+
+a.header-brand-link {
+  display: flex;
+  align-items: center;
+}
+
+.osh-header-titles-all {
+  z-index: 1;
+}
+
+.links {
+  display: none;
+}
+
+.osh-header-menu-btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 75px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  filter: drop-shadow(4px 4px 3px #8f8f8f);
+  z-index: 20;
+  background: unset;
+}
+
+.osh-header-menu-btn-burger {
+  width: 40px;
+  height: 1px;
+  background: #252525;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.osh-header-menu-btn-burger::before,
+.osh-header-menu-btn-burger::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 1px;
+  background: #252525;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.osh-header-menu-btn-burger::before {
+  transform: translateY(-16px);
+}
+
+.osh-header-menu-btn-burger::after {
+  transform: translateY(16px);
+}
+
+.osh-header-menu-btn.open .osh-header-menu-btn-burger {
+  transform: translateY(3px);
+  background: transparent;
+}
+
+.osh-header-menu-btn.open .osh-header-menu-btn-burger::before {
+  transform: rotate(45deg) translate(1px, -1px);
+}
+
+.osh-header-menu-btn.open .osh-header-menu-btn-burger::after {
+  transform: rotate(-45deg) translate(1px, 1px);
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+/* //DESKTOP// */
+
+@media (min-width: 770px) {
+  .navbar {
+    align-items: flex-end;
+    margin: 0 30px 10px;
+  }
+
+  img.brand-icon-header {
+    height: 70px;
+    padding-top: 10px;
+  }
+
+  .osh-header-titles {
+    width: 100%;
+  }
+
+  .navbar h1 {
+    letter-spacing: 3.5px;
+    font-size: 59px;
+    margin: 30px 0 0;
+    line-height: 40px;
+  }
+
+  .navbar p {
+    letter-spacing: 7.5px;
+    font-size: 14px;
+  }
 }

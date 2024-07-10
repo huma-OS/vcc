@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+// import logo from './logo.svg';
+import Navbar from './Navbar';
+import Home from './Home';
+import Footer from './Footer';
 function App() {
+  // const title = 'welcome to my page';
+  // const years = 10;
+  // const link = "http://www.okothsimonhuma.com";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className="content">
+        <Home />
+        {/* <h1>{title}</h1>
+        <p>{'i am a visual communication consultant'}</p>
+        <p>i have {years} years of experience</p>
+        <p>i have seviced over { Math.random() * 10000 } customers</p>
+        <a href={ link }>my site</a> */}
+        <Footer />
+      </div>
     </div>
   );
 }
