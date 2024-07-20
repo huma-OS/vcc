@@ -21,7 +21,7 @@
 
 img.brand-icon-header {
   height: 55px;
-  background: unset;
+  background: none;
   -webkit-filter: drop-shadow(4px 4px 3px #8f8f8f);
   filter: drop-shadow(4px 4px 3px #8f8f8f);
 }
@@ -79,7 +79,7 @@ a.header-brand-link {
   -webkit-filter: drop-shadow(4px 4px 3px #8f8f8f);
   filter: drop-shadow(4px 4px 3px #8f8f8f);
   z-index: 20;
-  background: unset;
+  background: none;
 }
 
 .osh-header-menu-btn-burger {
@@ -170,24 +170,46 @@ a.header-links {
   visibility: visible;
 }
 
-/* .osh-header-menu-links {
-  margin: 10% auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
 }
 
+/* //FOOTER// */
+.osh-footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 20px auto;
+  right: 0;
+  left: 0;
+}
+
+.osh-logo-footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+img.brand-icon {
+  width: 50px;
+  height: 42px;
+  -webkit-filter: drop-shadow(4px 4px 3px #8f8f8f);
+  filter: drop-shadow(4px 4px 3px #8f8f8f);
+  background: none;
+}
+
 /* Responsive styles */
 /* //TABLET// */
 @media (min-width: 426px) {
   a.header-links {
-    font-size: 19px;
+    font-size: 20px;
     padding: 3px 90px;
   }
 }
@@ -224,4 +246,19 @@ a.header-links {
     font-size: 20px;
     padding: 5px 90px;
   }
+
+  .osh-footer {
+    margin: 30px auto;
+  }
 }
+
+/* //end base styles// */
+
+
+/* //ABOUT PAGEs// */
+/* img.social-icon {
+  -webkit-filter: drop-shadow(4px 4px 3px #8f8f8f);
+  filter: drop-shadow(4px 4px 3px #8f8f8f);
+} */
+
+/* //END ABOUT PAGEs// */
