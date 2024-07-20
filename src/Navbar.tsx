@@ -1,5 +1,18 @@
 import React from 'react';
-const Navbar = () => {
+import { useState } from 'react';
+import Menu from './Menu';
+
+const Navbar: React.FC = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  }
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
 return (
 // class="osh-header"
 <nav className="navbar">
@@ -12,15 +25,12 @@ return (
       </div>
     </a>
   </div>
-  <div className="osh-header-menu-btn">
+  <div className={`osh-header-menu-btn ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
     <div className="osh-header-menu-btn-burger"></div>
   </div>
 
   {/* class="osh-header-menu" */}
-  <div className="links osh-header-menu">
-    <a href="/about.html" className="header-links">ABOUT</a>
-    <a href="/home" className="header-links">HOME</a>
-  </div>
+  <Menu isOpen={menuOpen} closeMenu={closeMenu}/>
 </nav>
 );
 }
