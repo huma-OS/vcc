@@ -10,15 +10,15 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="content">
+      <div className="content body-no-header">
         <Home />
         {/* <h1>{title}</h1>
         <p>{'i am a visual communication consultant'}</p>
         <p>i have {years} years of experience</p>
         <p>i have seviced over { Math.random() * 10000 } customers</p>
         <a href={ link }>my site</a> */}
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
