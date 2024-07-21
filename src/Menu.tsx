@@ -8,7 +8,7 @@ interface MenuProps {
 
 const Menu: React.FC<MenuProps> = ({isOpen, closeMenu}) => {
   return ( 
-    <div className={`links osh-header-menu ${isOpen ? 'active-menu' : ''}`}>
+    <div className={`links osh-header-menu ${isOpen ? 'active-menu' : ''}`} onClick={closeMenu}>
      <Link to="/about" className="header-links" onClick={closeMenu}>ABOUT</Link>
      <Link to="/" className="header-links" onClick={closeMenu}>HOME</Link>
      <Link to="/video" className="header-links" onClick={closeMenu}>VIDEO</Link>

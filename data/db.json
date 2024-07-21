@@ -1,0 +1,116 @@
+{
+  "home": [
+    {
+      "title": "VIDEOGRAPHY",
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 1
+    },
+    {
+      "title": "PHOTOGRAPHY",
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 2
+    },
+    {
+      "title": "ART DIRECTION & DESIGN",
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 3
+    },
+    {
+      "title": "WEB DEVELOPMENT",
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 4
+    }
+  ],
+  
+  "videography": [
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 1
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 2
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 3
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 4
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 5
+    }
+  ],
+  
+  "photography": [
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 1
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 2
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 3
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 4
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 5
+    }
+  ],
+  
+  "artDesign": [
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 1
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 2
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 3
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 4
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 5
+    }
+  ],
+  
+  "webDev": [
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 1
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 2
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 3
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 4
+    },
+    {
+      "imgUrl": "img/0907-MW-OD-ROW-06.jpeg",
+      "id": 5
+    }
+  ]
+}
