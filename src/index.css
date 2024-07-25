@@ -273,7 +273,7 @@ img.brand-icon {
 
 /* //END ABOUT PAGEs// */
 
-/* //slides component// */
+/* //home slides component// */
 .body-no-header {
   transition: all 0.5s ease-in-out;
 }
@@ -421,11 +421,70 @@ figure.slide-model-elements.card.loading {
 
   .slide-model-element-copy {
     top: 50%;
-    font-size: 25px;
+    font-size: 23px;
+    line-height: 1;
+    /* padding-top: 5px; */
   }
 }
-/* //END slides component// */
+/* //END home slides component// */
 
+
+
+/* gallery slides*/
+li.slide-model-links {
+  background: none;
+}
+
+.slide-model-photo {
+  width: 276px;
+  height: 243px;
+}
+
+.slide-models-photo {
+  grid-template-columns: repeat(auto-fit, 300px);
+  max-width: 95vw;
+  list-style-type: none;
+}
+
+.portrait-photos {
+  width: 83%;
+}
+
+img.slide-model-element-img-photo {
+  width: 100%;
+}
+
+h2.titles-title {
+  margin: 0 50px 10px;
+  letter-spacing: 23px;
+  text-align: left;
+  z-index: 9;
+  font: bold 20px 'Teko', oswald;
+  background-color: #c6c5c5;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgb(255 255 255 / 50%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* //TABLET// */
+/* @media (min-width: 426px) {} */
+/* //DESKTOP// */
+/* @media (min-width: 770px) {} */
+/* //END PAGEs// */
+@media (min-width: 426px) {
+  .slide-model-photo {
+    width: 300px;
+    height: 300px;
+  }
+
+img.slide-model-element-img-photo {
+  width: 62%;
+}
+}
 
 /* //PAGEs// */
 /* //TABLET// */

@@ -3,6 +3,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
+import Gallery from './Gallery';
+
 function App() {
   // const title = 'welcome to my page';
   // const years = 10;
@@ -11,7 +13,8 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content body-no-header">
-        <Home />
+        {/* <Home /> */}
+        <Gallery />
         {/* <h1>{title}</h1>
         <p>{'i am a visual communication consultant'}</p>
         <p>i have {years} years of experience</p>
