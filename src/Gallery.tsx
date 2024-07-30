@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 import useFetchItems from "./useFetchItems";
 import GalleryList from "./GalleryList";
 interface GallerySlide {
@@ -9,25 +10,30 @@ interface GallerySlide {
 }
 
 const Gallery = () => {
+  const { category } = useParams<{ category: string }>();
   const endpoint = 'http://localhost:8000/items';
-  const [category, setCategory] = useState<string | null>(null);
+  // const [category, setCategory] = useState<string | null>(null);
 
   const filterFn = (items: GallerySlide[]) => {
-    const nonHomeSlides = items.filter(item => item.category !== 'HOME');
-    console.log(nonHomeSlides);
-    if (nonHomeSlides.length > 0) {
-      setCategory(nonHomeSlides[0].category || '');
-    }
-    return nonHomeSlides;
+    return items.filter(item => item.category === category);
+    // const nonHomeSlides = items.filter(item => item.category !== 'HOME');
+    // console.log(nonHomeSlides);
+    // if (nonHomeSlides.length > 0) {
+    //   setCategory(nonHomeSlides[0].category || '');
+    // }
+    // return nonHomeSlides;
   };
 
   const { items: gallerySlides, isPending, error } = useFetchItems(endpoint, filterFn);
 
   return (  
     <>
-    {category && category !== 'HOME' && (
+    {category &&  (
         <h2 className="titles-title">{category}</h2>
       )}
+    {/* {category && category !== 'HOME' && (
+        <h2 className="titles-title">{category}</h2>
+      )} */}
     <ul className="slide-models slide-models-photo gallery">
       {error && <div>{ error }</div>}         
    {isPending ? (

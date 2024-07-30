@@ -1,6 +1,6 @@
 import React from "react";
 import useFetchItems from "./useFetchItems";
-
+import { Link } from "react-router-dom";
 interface HomeSlide {
   category: string;
   title: string;
@@ -34,14 +34,14 @@ return (
   homeSlides.map((homeSlide) => (
 
       <li className="slide-model-links" key={homeSlide.id}>
-    <div className="slide-model slide-shadow">
+    <Link to={homeSlide.url} className="slide-model slide-shadow">
       <figure className="slide-model-elements">
         <img className="slide-model-element-img portrait" src={homeSlide.imgUrl} alt="version one" />
         <figcaption className="slide-model-element-copy">
           <p className="slide-model-element-copy">{homeSlide.title}</p>
         </figcaption>
       </figure>
-    </div>
+    </Link>
   </li>
   ))
 )}
