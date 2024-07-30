@@ -1,45 +1,39 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import useFetchItems from "./useFetchItems";
+
 interface HomeSlide {
+  category: string;
   title: string;
   url: string;
   imgUrl: string;
   id: number;
 }
 
-const Home = () => {
-const [homeSlides, setHomeSlides] = useState<HomeSlide[]>([]);
-const [isPending, setIsPending] = useState<boolean>(true);
-
-useEffect(() => {
-  setTimeout(() => {
-    fetch('http://localhost:8000/home')
-    .then(res => {
-      return res.json();
-    })
-    .then(data => {
-      setHomeSlides(data);
-      setIsPending(false);
-    });
-  }, 5000)
-}, []);
+const Home: React.FC = () => {
+  const endpoint = 'http://localhost:8000/items';
+  const filterFn = (items: HomeSlide[]) => items.filter(item => item.category === 'HOME');
+  const { items: homeSlides, isPending, error } = useFetchItems<HomeSlide>(endpoint, filterFn);
 
 return (
-<div className="slide-models gallery">
+<ul className="slide-models gallery">
 {isPending ? (
 <>
 {[...Array(4)].map((_, index) => (
-    <div className="slide-model-links" key={index}>
+    <li className="slide-model-links" key={index}>
     <div className="slide-model slide-shadow">
       <figure className="slide-model-elements card loading">
         <img className="slide-model-element-img image" alt="" />
       </figure>
     </div>
-  </div> 
+  </li> 
 ))}
   </>
+  ) : error ?  (
+    <div>{ error }</div>
 ) : (
   homeSlides.map((homeSlide) => (
-    <a href={homeSlide.url} className="slide-model-links" key={homeSlide.id}>
+
+      <li className="slide-model-links" key={homeSlide.id}>
     <div className="slide-model slide-shadow">
       <figure className="slide-model-elements">
         <img className="slide-model-element-img portrait" src={homeSlide.imgUrl} alt="version one" />
@@ -48,10 +42,10 @@ return (
         </figcaption>
       </figure>
     </div>
-  </a>
+  </li>
   ))
 )}
-</div>
+</ul>
 
 
 );

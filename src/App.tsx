@@ -3,26 +3,27 @@ import React from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
-import Gallery from './Gallery';
+// import About from './About';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
-  // const title = 'welcome to my page';
-  // const years = 10;
-  // const link = "http://www.okothsimonhuma.com";
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content body-no-header">
-        {/* <Home /> */}
-        <Gallery />
-        {/* <h1>{title}</h1>
-        <p>{'i am a visual communication consultant'}</p>
-        <p>i have {years} years of experience</p>
-        <p>i have seviced over { Math.random() * 10000 } customers</p>
-        <a href={ link }>my site</a> */}
+    // <Router>
+      <div className="App">
+        <Navbar />
+        <div className="content body-no-header">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {/* <Route path="/about" element={<About />} /> */}
+            {/* <Gallery /> */}
+          </Routes>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    // </Router>
+   
   );
 }
 

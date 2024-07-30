@@ -1,32 +1,35 @@
 import React, { useState, useEffect } from "react";
+import useFetchItems from "./useFetchItems";
 import GalleryList from "./GalleryList";
 interface GallerySlide {
+  category?: string;
   title: string;
   imgUrl: string;
   id: number;
 }
 
 const Gallery = () => {
-  const [gallerySlides, setGallerySlides ] = useState<GallerySlide[]>([]);
-  const [isPending, setIsPending] = useState<boolean>(true);
+  const endpoint = 'http://localhost:8000/items';
+  const [category, setCategory] = useState<string | null>(null);
 
-  useEffect(() => {
-    setTimeout(() => {
-      fetch('http://localhost:8000/videography')
-      .then(res => {
-        return res.json();
-      })
-      .then(data => {
-        setGallerySlides(data);
-        setIsPending(false);
-      })
-    }, 5000)
-  }, []);
+  const filterFn = (items: GallerySlide[]) => {
+    const nonHomeSlides = items.filter(item => item.category !== 'HOME');
+    console.log(nonHomeSlides);
+    if (nonHomeSlides.length > 0) {
+      setCategory(nonHomeSlides[0].category || '');
+    }
+    return nonHomeSlides;
+  };
+
+  const { items: gallerySlides, isPending, error } = useFetchItems(endpoint, filterFn);
+
   return (  
     <>
-    {/* <h2 className="titles-title">PHOTOGRAPHY</h2> */}
+    {category && category !== 'HOME' && (
+        <h2 className="titles-title">{category}</h2>
+      )}
     <ul className="slide-models slide-models-photo gallery">
-               
+      {error && <div>{ error }</div>}         
    {isPending ? (
     <>
     {[...Array(5)].map((_, index) => (
