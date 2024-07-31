@@ -12,16 +12,9 @@ interface GallerySlide {
 const Gallery = () => {
   const { category } = useParams<{ category: string }>();
   const endpoint = 'http://localhost:8000/items';
-  // const [category, setCategory] = useState<string | null>(null);
 
   const filterFn = (items: GallerySlide[]) => {
     return items.filter(item => item.category === category);
-    // const nonHomeSlides = items.filter(item => item.category !== 'HOME');
-    // console.log(nonHomeSlides);
-    // if (nonHomeSlides.length > 0) {
-    //   setCategory(nonHomeSlides[0].category || '');
-    // }
-    // return nonHomeSlides;
   };
 
   const { items: gallerySlides, isPending, error } = useFetchItems(endpoint, filterFn);
@@ -31,9 +24,6 @@ const Gallery = () => {
     {category &&  (
         <h2 className="titles-title">{category}</h2>
       )}
-    {/* {category && category !== 'HOME' && (
-        <h2 className="titles-title">{category}</h2>
-      )} */}
     <ul className="slide-models slide-models-photo gallery">
       {error && <div>{ error }</div>}         
    {isPending ? (
@@ -51,8 +41,6 @@ const Gallery = () => {
 ) : (
   <GalleryList gallerySlides={gallerySlides} />
 )}
-      {/* {gallerySlides && <GalleryList gallerySlides={gallerySlides} />} */}
-      {/* <GalleryList gallerySlides={gallerySlides.filter((gallerySlide) => gallerySlide.title === 'PHOTOGRAPHY' )} /> */}
     </ul>
     </>
   );

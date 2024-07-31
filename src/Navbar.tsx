@@ -14,7 +14,6 @@ const Navbar: React.FC = () => {
   };
 
 return (
-// class="osh-header"
 <nav className="navbar">
   <div className="osh-header-titles-all">
     <a href="http://okothsimonhuma.com/" className="header-brand-link">
@@ -28,8 +27,6 @@ return (
   <div className={`osh-header-menu-btn ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
     <div className="osh-header-menu-btn-burger"></div>
   </div>
-
-  {/* class="osh-header-menu" */}
   <Menu isOpen={menuOpen} closeMenu={closeMenu}/>
 </nav>
 );
