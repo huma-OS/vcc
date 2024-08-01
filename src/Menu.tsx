@@ -15,7 +15,7 @@ const Menu: React.FC<MenuProps> = ({isOpen, closeMenu}) => {
      <Link to="/gallery/photography" className="header-links" onClick={closeMenu}>PHOTOGRAPHY</Link>
      <Link to="/gallery/art direction & design" className="header-links" onClick={closeMenu}>ART DIRECTION & DESIGN</Link>
      <Link to="/gallery/web development" className="header-links" onClick={closeMenu}>WEB DEVELOPMENT</Link>
-     <Link to="mailto:info@okothsimonhuma.com" className="header-links" onClick={closeMenu}>CONTACT</Link>
+     <a href="mailto:info@okothsimonhuma.com" className="header-links" onClick={closeMenu}>CONTACT</a>
   </div>
    );
 }
