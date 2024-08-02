@@ -10,8 +10,8 @@ interface CarouselModalProps {
 
 const CarouselModal: React.FC<CarouselModalProps> = ({images, selectedIndex, onClose}) => {
   return ( 
-    <div className="carousel-modal">
-    <button className="close-button" onClick={onClose}>X</button>
+    <div className="carousel-modal slide-model-links">
+    <button className="close-button" onClick={onClose}></button>
     <Carousel selectedItem={selectedIndex} showThumbs={false} useKeyboardArrows>
       {images.map((imgUrl, index) => (
         <div key={index}>

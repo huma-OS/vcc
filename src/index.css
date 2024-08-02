@@ -561,9 +561,8 @@ h2.titles-title {
 /* @media (min-width: 770px) {} */
 /* //END PAGEs// */
 
-
-/* Enlarge image on click */
-/* .carousel-modal {
+/* Carousel Modal Styling */
+.carousel-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -574,56 +573,82 @@ h2.titles-title {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
-.carousel-modal .close-button {
+.close-button {
   position: absolute;
-  top: 13px;
-  right: 59px;
-  background: none;
+  top: 16px;
+  right: 15px;
   border: none;
-  color: #252525;
-  font-size: 2rem;
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 2px 2px 6px #c6c5c5, -2px -2px 6px #ffffff;
+}
+
+.close-button::before {
+  content: "×";
+  position: absolute;
+  top: -9px;
+  right: 13px;
+  font-size: 48px;
   cursor: pointer;
-  z-index: 1001;
+  color: #8f8f8f;
 }
 
-.slide-model-links {
-  cursor: pointer;
-}
 
-@media (min-width: 960px) {
-  .carousel .control-dots {
-      bottom: 20%;
-  }
-}
-
-.carousel .control-dots .dot {
-  background: #252525;
-  margin: 0 2px;
-}
-
-.carousel.carousel-slider .control-arrow:hover {
-  background: #c6c5c5;
-}
-.carousel.carousel-slider .control-arrow {
-  color: #252525;
-}
-
-.carousel .control-prev.control-arrow:before {
-  border-right: 8px solid #252525;
+.carousel .slide {
+  display: flex;
+  justify-content: center;
 }
 
 .carousel .carousel-status {
-  font-size: 15px;
-  text-shadow: 1px 1px 1px #8f8f8f;
-  color: #252525;
-  background: #c6c5c5;
-  border-radius: 5px;
-  box-shadow: 2px 2px 6px #c6c5c5, -2px -2px 6px #ffffff;
-  margin-right: 5px;
+  display: none; /* Hide status by default */
 }
 
-.carousel .slide img .portrait{
-  width: 39%;
+/* .carousel .carousel-indicators {
+  bottom: 20px;
 } */
+
+.carousel .control-dots {
+  background: none;
+}
+
+ @media (min-width: 769px) {
+  /* Show carousel status only on desktop */
+  .carousel .carousel-status {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+  }
+
+  /* Hide control dots on desktop */
+  .carousel .carousel-indicators {
+    display: none;
+  }
+}
+
+ /* @media (max-width: 768px) {  */
+  /* .carousel .carousel-indicators {
+    display: flex;
+    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .carousel .carousel-indicator {
+    background: white;
+    width: 8px;
+    height: 8px;
+    margin: 0 4px;
+  }
+
+  .carousel .carousel-indicator.active {
+    background: red;
+  } */
+/* } */
+
+
