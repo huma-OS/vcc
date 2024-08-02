@@ -23,6 +23,7 @@ const Gallery = () => {
 
   const handleImageClick = (index: number) => {
     setSelectedImageIndex(index);
+    console.log(`Image Clicked: ${index}`);
   }
 
   const handleCloseModal = () => {
