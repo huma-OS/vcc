@@ -33,7 +33,7 @@ const Gallery = () => {
   return (  
     <>
     {category &&  (
-        <h2 className="titles-title">{category}</h2>
+        <h2 className="titles-title">{category.replace(/-/g, ' ')}</h2>
       )}
 
 {selectedImageIndex !== null && (
