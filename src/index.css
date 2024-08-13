@@ -571,6 +571,21 @@ h2.titles-title {
   }
 }
 
+.tech-stack-icons {
+  display: flex;
+  padding: 0;
+  background: none;
+  flex-wrap: wrap;
+}
+
+.tech-icon {
+  width: 25px; /* Adjust size of the icons */
+  height: 25px; /* Adjust size of the icons */
+  background: none;
+  padding: 2px;
+}
+
+
 /* //PAGEs// */
 /* //TABLET// */
 /* @media (min-width: 426px) {} */
