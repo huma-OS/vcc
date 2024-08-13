@@ -14,6 +14,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+also in new terminal to run the json server `npx json-server --watch data/db.json --port 8000`
+
+use this instead if get errors and have to fix `npx json-server --watch data/db.json --port 8000 --no-cors`
+`npm install react-router-dom@5`
+
+add images: `npx ts-node src/updateIds.ts`
+delete images: `npx ts-node src/deleteIds.ts`
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
@@ -39,6 +47,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### `npx ts-node updateIds.tsx` 
+
+once you have populated the file run the above in the terminal
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
