@@ -8,9 +8,10 @@ interface GallerySlide {
   title: string;
   imgUrl: string;
   id: number;
+  url?: string;
 }
 
-const Gallery = () => {
+const Gallery: React.FC = () => {
   const { category } = useParams<{ category: string }>();
   const endpoint = 'http://localhost:8000/items';
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
@@ -36,7 +37,7 @@ const Gallery = () => {
         <h2 className="titles-title">{category.replace(/-/g, ' ')}</h2>
       )}
 
-{selectedImageIndex !== null && (
+{selectedImageIndex !== null && category !== "web-development" &&(
         <CarouselModal
           images={gallerySlides.map(slide => slide.imgUrl)}
           selectedIndex={selectedImageIndex}
