@@ -38,6 +38,12 @@
       "category": "videography",
       "title": "VIDEOGRAPHY",
       "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 6
+    },
+    {
+      "category": "videography",
+      "title": "VIDEOGRAPHY",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 7
     },
     {
@@ -119,32 +125,43 @@
       "id": 20
     },
     {
+      "category": "art-direction-&-design",
+      "title": "ART DIRECTION & DESIGN",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 21
+    },
+    {
       "category": "web-development",
-      "title": "WEB DEVELOPMENT",
+      "title": "QUIZ",
+      "url": "/gallery/web-development-quiz",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 22
     },
     {
       "category": "web-development",
-      "title": "WEB DEVELOPMENT",
+      "title": "BILITANONNE",
+      "url": "/gallery/web-development-bilitanonne",
       "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 23
     },
     {
       "category": "web-development",
-      "title": "WEB DEVELOPMENT",
+      "title": "AFRICA",
+      "url": "/gallery/web-development-africa",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 24
     },
     {
       "category": "web-development",
-      "title": "WEB DEVELOPMENT",
+      "title": "BLOG",
+      "url": "/gallery/web-development-blog",
       "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 25
     },
     {
       "category": "web-development",
-      "title": "WEB DEVELOPMENT",
+      "title": "INVOICE",
+      "url": "/gallery/web-development-invoice",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 26
     }
