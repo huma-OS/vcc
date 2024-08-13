@@ -319,16 +319,32 @@ img.brand-icon {
   bottom: 14px;
 }
 
+@keyframes invertAnimation {
+  0% {
+    filter: invert(1);
+  }
+  50% {
+    filter: invert(0);
+  }
+  100% {
+    filter: invert(1);
+  }
+}
+
 .slide-model-elements {
   position: relative;
   text-align: center;
   color: #ffffff;
   background: none;
-  filter: none;
+  /* filter: none; */
+  animation: invertAnimation 5s infinite; /* Adjust duration as needed */
 }
 
+
 .slide-model-elements:hover {
-  filter: none;
+  /* filter: none; */
+  animation: none;
+  filter: invert(0);
 }
 
 .slide-model-links {
@@ -411,6 +427,7 @@ ul.slide-models.gallery {
 /* //DESKTOP// */
 @media (min-width: 769px) {
   .slide-model-elements {
+    animation: none;
     filter: invert(1);
   }
   
@@ -638,7 +655,7 @@ h2.titles-title {
 /* DESKTOP */
 @media (min-width: 1025px) {
 .carousel .slider-wrapper {
-  width: 33.8%!important;
+  width: 33.79%!important;
 }
 }
 

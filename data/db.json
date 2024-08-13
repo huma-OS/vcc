@@ -38,97 +38,85 @@
       "category": "videography",
       "title": "VIDEOGRAPHY",
       "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
-      "id": 6
-    },
-    {
-      "category": "videography",
-      "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 7
     },
     {
       "category": "videography",
       "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 8
     },
     {
       "category": "videography",
       "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 9
     },
     {
-      "category": "photography",
-      "title": "PHOTOGRAPHY",
+      "category": "videography",
+      "title": "VIDEOGRAPHY",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 10
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 11
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 12
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 13
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 14
     },
     {
-      "category": "art-direction-&-design",
-      "title": "ART DIRECTION & DESIGN",
+      "category": "photography",
+      "title": "PHOTOGRAPHY",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 15
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 16
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 17
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 18
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
       "id": 19
     },
     {
-      "category": "web-development",
-      "title": "WEB DEVELOPMENT",
+      "category": "art-direction-&-design",
+      "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 20
-    },
-    {
-      "category": "web-development",
-      "title": "WEB DEVELOPMENT",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
-      "id": 21
     },
     {
       "category": "web-development",
@@ -147,6 +135,18 @@
       "title": "WEB DEVELOPMENT",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
       "id": 24
+    },
+    {
+      "category": "web-development",
+      "title": "WEB DEVELOPMENT",
+      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "id": 25
+    },
+    {
+      "category": "web-development",
+      "title": "WEB DEVELOPMENT",
+      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "id": 26
     }
   ]
 }
