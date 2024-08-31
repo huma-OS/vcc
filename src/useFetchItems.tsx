@@ -18,6 +18,7 @@ const useFetchItems = <T extends Item>(endpoint: string, filterFn: FilterFn<T>) 
   useEffect(() => {
     const fetchData = async () => {
       try {
+
         const res = await fetch(endpoint);
         if (!res.ok) {
           throw new Error('Could not fetch the data for that resource');
