@@ -22,7 +22,7 @@ if (!fs.existsSync(filePath)) {
 const data: { items: Item[] } = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
 // IDs of items to delete
-const idsToDelete = [0,0]; // List of IDs you want to delete
+const idsToDelete = [0]; // List of IDs you want to delete
 
 // Function to delete items by IDs
 const deleteItems = (items: Item[], idsToDelete: number[]): Item[] => {

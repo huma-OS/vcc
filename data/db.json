@@ -5,6 +5,7 @@
       "title": "VIDEOGRAPHY",
       "url": "/gallery/videography",
       "imgUrl": "/img/photograghy-IMG-5046.jpg",
+      "imgUrlWebp": "/img/photograghy-IMG-5046.webp",
       "id": 1
     },
     {
@@ -12,6 +13,7 @@
       "title": "PHOTOGRAPHY",
       "url": "/gallery/photography",
       "imgUrl": "/img/photography-3-mach-mach2.jpg",
+      "imgUrlWebp": "/img/photography-3-mach-mach2.webp",
       "id": 2
     },
     {
@@ -19,6 +21,7 @@
       "title": "ART DIRECTION & DESIGN",
       "url": "/gallery/art-direction-&-design",
       "imgUrl": "/img/design-banners15.png",
+      "imgUrlWebp": "/img/design-banners15.webp",
       "id": 3
     },
     {
@@ -26,228 +29,264 @@
       "title": "WEB DEVELOPMENT",
       "url": "/gallery/web-development",
       "imgUrl": "/img/webdev.png",
+      "imgUrlWebp": "/img/webdev.webp",
       "id": 4
     },
     {
       "category": "videography",
       "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrl": "/img/videography-morena.png",
+      "imgUrlWebp": "/img/videography-morena.webp",
+      "videoUrl": "https://player.vimeo.com/video/189425518?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       "id": 5
     },
     {
       "category": "videography",
       "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/videography-olubundi.png",
+      "imgUrlWebp": "/img/videography-olubundi.webp",
+      "videoUrl": "https://player.vimeo.com/video/329564583?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       "id": 6
     },
     {
       "category": "videography",
       "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/videography-mendhi.png",
+      "imgUrlWebp": "/img/videography-mendhi.webp",
+      "videoUrl": "https://player.vimeo.com/video/169620397?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       "id": 7
     },
     {
       "category": "videography",
       "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrl": "/img/videography-sg-roadtrip.png",
+      "imgUrlWebp": "/img/videography-sg-roadtrip.webp",
+      "videoUrl": "https://player.vimeo.com/video/106703817?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       "id": 8
     },
     {
       "category": "videography",
       "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrl": "/img/videography-wkshop-coll.jpeg",
+      "imgUrlWebp": "/img/videography-wkshop-coll.webp",
+      "videoUrl": "https://player.vimeo.com/video/141144292?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
       "id": 9
-    },
-    {
-      "category": "videography",
-      "title": "VIDEOGRAPHY",
-      "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
-      "id": 10
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-1-File 23-06-2017-01-29-51.jpg",
+      "imgUrlWebp": "/img/photograghy-1-File 23-06-2017-01-29-51.webp",
       "id": 11
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-2-File-23-06-2017-02-13-40.jpg",
+      "imgUrlWebp": "/img/photograghy-2-File-23-06-2017-02-13-40.webp",
       "id": 12
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photography-3-mach-mach2.jpg",
+      "imgUrlWebp": "/img/photography-3-mach-mach2.webp",
       "id": 13
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-4-olubundi3985a.jpg",
+      "imgUrlWebp": "/img/photograghy-4-olubundi3985a.webp",
       "id": 14
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-5-fiveA.jpg",
+      "imgUrlWebp": "/img/photograghy-5-fiveA.webp",
       "id": 15
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-SAB-3.jpg",
+      "imgUrlWebp": "/img/design-SAB-3.webp",
       "id": 16
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-IMG-6548-2.jpg",
+      "imgUrlWebp": "/img/photograghy-IMG-6548-2.webp",
       "id": 17
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-IMG-3921.jpg",
+      "imgUrlWebp": "/img/photograghy-IMG-3921.webp",
       "id": 18
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograph-TF-shades.jpg",
+      "imgUrlWebp": "/img/photograph-TF-shades.webp",
       "id": 19
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-2017-06-24-13-31-29.jpg",
+      "imgUrlWebp": "/img/photograghy-2017-06-24-13-31-29.webp",
       "id": 20
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-IMG-5046.jpg",
+      "imgUrlWebp": "/img/photograghy-IMG-5046.webp",
       "id": 21
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograph-blazonbanner3.png",
+      "imgUrlWebp": "/img/photograph-blazonbanner3.webp",
       "id": 22
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-IMG-6500.jpg",
+      "imgUrlWebp": "/img/photograghy-IMG-6500.webp",
       "id": 23
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-IMG-5343.jpg",
+      "imgUrlWebp": "/img/photograghy-IMG-5343.webp",
       "id": 24
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photography-givenchy-mooncut.jpg",
+      "imgUrlWebp": "/img/photography-givenchy-mooncut.webp",
       "id": 25
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-2018-02-02-16-04-36.jpg",
+      "imgUrlWebp": "/img/photograghy-2018-02-02-16-04-36.webp",
       "id": 26
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-2017-08-23-23-06-02.jpg",
+      "imgUrlWebp": "/img/photograghy-2017-08-23-23-06-02.webp",
       "id": 27
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/design-IMG-7154.jpg",
+      "imgUrlWebp": "/img/design-IMG-7154.webp",
       "id": 28
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-File-07-12-2017-14-22-16.jpg",
+      "imgUrlWebp": "/img/photograghy-File-07-12-2017-14-22-16.webp",
       "id": 29
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograph-le-bambino-jacquemus.jpg",
+      "imgUrlWebp": "/img/photograph-le-bambino-jacquemus.webp",
       "id": 30
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-File-23-06-2017-01-34-35.jpg",
+      "imgUrlWebp": "/img/photograghy-File-23-06-2017-01-34-35.webp",
       "id": 31
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-zipuphoody2.png",
+      "imgUrlWebp": "/img/photograghy-zipuphoody2.webp",
       "id": 32
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-GOPR0104.jpg",
+      "imgUrlWebp": "/img/photograghy-GOPR0104.webp",
       "id": 33
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photography-loewe-sunglasses.jpg",
+      "imgUrlWebp": "/img/photography-loewe-sunglasses.webp",
       "id": 34
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograghy-2017-12-29-16-35-31.jpg",
+      "imgUrlWebp": "/img/photograghy-2017-12-29-16-35-31.webp",
       "id": 35
     },
     {
       "category": "photography",
       "title": "PHOTOGRAPHY",
       "imgUrl": "/img/photograph-valentino-garavani-small-leather-rockstud-shoulder-bag.jpg",
+      "imgUrlWebp": "/img/photograph-valentino-garavani-small-leather-rockstud-shoulder-bag.webp",
       "id": 36
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-IMG-7154.jpg",
+      "imgUrlWebp": "/img/design-IMG-7154.webp",
       "id": 57
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-harleenALPHAA.jpg",
+      "imgUrlWebp": "/img/design-harleenALPHAA.webp",
       "id": 58
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-banners15.png",
+      "imgUrlWebp": "/img/design-banners15.webp",
       "id": 59
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-SGBLAZONBACKBLACK.png",
+      "imgUrlWebp": "/img/design-SGBLAZONBACKBLACK.webp",
       "id": 60
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-INSTAPROMO.png",
+      "imgUrlWebp": "/img/design-INSTAPROMO.webp",
       "id": 61
     },
     {
@@ -255,60 +294,70 @@
       "title": "QUIZ",
       "url": "/gallery/web-development-quiz",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrlWebp": "/img/0907-MW-OD-ROW-06.webp",
       "id": 62
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-Banner2.jpg",
+      "imgUrlWebp": "/img/design-Banner2.webp",
       "id": 63
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-IMG-7153.jpg",
+      "imgUrlWebp": "/img/design-IMG-7153.webp",
       "id": 64
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
-      "imgUrl": "/img/design-SYMR1.png",
+      "imgUrl": "/img/design-bilitanonne.png",
+      "imgUrlWebp": "/img/design-bilitanonne.webp",
       "id": 65
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-Blk-Sweater-yt-Txt.png",
+      "imgUrlWebp": "/img/design-Blk-Sweater-yt-Txt.webp",
       "id": 66
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-archblk.png",
+      "imgUrlWebp": "/img/design-archblk.webp",
       "id": 67
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
-      "imgUrl": "/img/design-IMG_4453.jpeg",
+      "imgUrl": "/img/design-IMG-4453.jpeg",
+      "imgUrlWebp": "/img/design-IMG-4453.webp",
       "id": 68
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-GREENETEAM2B.png",
+      "imgUrlWebp": "/img/design-GREENETEAM2B.webp",
       "id": 69
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-sgfc.jpg",
+      "imgUrlWebp": "/img/design-sgfc.webp",
       "id": 70
     },
     {
       "category": "art-direction-&-design",
       "title": "ART DIRECTION & DESIGN",
       "imgUrl": "/img/design-LABLE.jpg",
+      "imgUrlWebp": "/img/design-LABLE.webp",
       "id": 71
     },
     {
@@ -316,6 +365,7 @@
       "title": "BILITANONNE",
       "url": "www.bilitanonne.com",
       "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrlWebp": "/img/0907-MW-OD-ROW-02-L.webp",
       "id": 72
     },
     {
@@ -323,6 +373,7 @@
       "title": "AFRICA",
       "url": "/gallery/web-development-africa",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrlWebp": "/img/0907-MW-OD-ROW-06.webp",
       "id": 73
     },
     {
@@ -330,6 +381,7 @@
       "title": "BLOG",
       "url": "/gallery/web-development-blog",
       "imgUrl": "/img/0907-MW-OD-ROW-02-L.jpeg",
+      "imgUrlWebp": "/img/0907-MW-OD-ROW-02-L.webp",
       "id": 74
     },
     {
@@ -337,6 +389,7 @@
       "title": "INVOICE",
       "url": "/gallery/web-development-invoice",
       "imgUrl": "/img/0907-MW-OD-ROW-06.jpeg",
+      "imgUrlWebp": "/img/0907-MW-OD-ROW-06.webp",
       "id": 75
     }
   ]
