@@ -173,7 +173,7 @@ a.header-links {
 .content {
   max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 /* //FOOTER// */
@@ -220,7 +220,7 @@ img.brand-icon {
 @media (min-width: 426px) {
   a.header-links {
     font-size: 20px;
-    padding: 3px 90px;
+    padding: 3px 27px;
   }
 }
 
@@ -254,7 +254,7 @@ img.brand-icon {
 
   a.header-links {
     font-size: 20px;
-    padding: 5px 90px;
+    padding: 5px 27px;
   }
 
   .osh-footer {
@@ -514,7 +514,8 @@ h2.titles-title {
 /* DESKTOP */
 @media (min-width: 770px) {
   h2.titles-title {
-    margin: 0 35px 10px;
+    /* margin: 0 35px 10px; */
+    margin: 0 55px 10px;
   }
 }
 
@@ -803,3 +804,201 @@ position: fixed;
     padding: 25% 0 0 0;
   }
   }
+
+
+  /* WEB-DEV */
+  .web-dev-icons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+  /* QUIZ-START */
+  body .quiz-body {
+    background-color: #e9e8e8 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  }
+
+  .result.py-4.bg-light.text-center.osh {
+    background-color: #e9e8e8 !important;
+  }
+  .intro.py-3.text-center.osh {
+    background-color: #e9e8e8 !important;
+  }
+  
+  img.brand-icon-header {
+    height: 70px;
+    padding: 0 5px 0 7px;
+    margin-top: 5px;
+    background: transparent;
+    -webkit-filter: drop-shadow(4px 4px 3px #8f8f8f);
+    filter: drop-shadow(4px 4px 3px #8f8f8f);
+  }
+  
+  img.brand-icon-header:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+
+  form.quiz-form.text-light {
+    background: none !important;
+}
+
+div.container{
+  background: none !important;
+}
+h2.my-5.text-white {
+  background: none;
+}
+.my-5 {
+  background: none;
+}
+.form-check.my-2.text-white-50 {
+  background: none;
+}
+.text-center {
+  background: none;
+}
+
+p.lead.font-weight-normal {
+  background: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+label.form-check-label {
+  background: none;
+  color: rgba(233, 232, 232, 0.9) !important;
+  padding-left: 5px;
+  font-size: 1.25rem;
+}
+
+input.btn.btn-light {
+  width: 250px;
+}
+
+h2.text-primary.display-1.my-4 {
+  margin: 0 ! important;
+}
+
+.result.py-4.bg-light.text-center.osh {
+  padding-bottom: 0 !important;
+}
+
+.intro.py-3.text-center.osh {
+  padding-bottom: 0 !important;
+}
+span.text-primary.display-4.p-3 {
+  background: none;
+}
+
+a:link { 
+  text-decoration: none!important; 
+} 
+a:visited { 
+  text-decoration: none!important; 
+} 
+a:hover { 
+  text-decoration: none!important; 
+} 
+a:active { 
+  text-decoration: none!important; 
+}
+  /* QUIZ-END */
+
+  /* AFRICA-START */
+   /* html {
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+  } */
+ 
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  input.search {
+    width: 100%;
+    padding: 20px;
+  }
+     
+  .search-form {
+    max-width: 400px;
+    margin: 50px auto;
+     box-sizing: border-box;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  input.search {
+    margin: 0;
+    text-align: center;
+    outline: 0;
+    border: 10px solid #e9e8e8;
+    background: #e9e8e8;
+    width: 100%;
+    left: 0;
+    position: relative;
+    top: 10px;
+    z-index: 2;
+    border-radius: 5px;
+    font-size: 33px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5), inset 0 0 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .suggestions {
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .suggestions li {
+    list-style: none;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.14);
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    text-transform: capitalize;
+  }
+  
+  .suggestions li:nth-child(even) {
+    transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+  }
+  
+  .suggestions li:nth-child(odd) {
+    transform: perspective(100px) rotateX(-3deg) translateY(3px);
+  }
+  
+  .name {
+    font-weight: 400;
+  }
+  
+  .population {
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: 400;
+  }
+  
+  .hl {
+    background: #ffc600;
+  }
+  
+  img.brand-icon-header {
+    height: 70px;
+    padding: 0 5px 0 7px;
+    margin-top: 5px;
+    background: transparent;
+    -webkit-filter: drop-shadow(4px 4px 3px #8f8f8f);
+    filter: drop-shadow(4px 4px 3px #8f8f8f);
+  }
+  
+  img.brand-icon-header:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* AFRICA-END */
