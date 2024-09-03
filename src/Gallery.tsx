@@ -18,7 +18,7 @@ interface GallerySlide {
 
 const Gallery: React.FC = () => {
   const { category } = useParams<{ category: string }>();
-  const endpoint = 'http://localhost:8000/items';
+  const endpoint = 'https://gist.githubusercontent.com/huma-OS/b3de1ec34662bb077ba2b6b83eccd780/raw/1b48eabaf138731d856a01a1db996990dc1e4128/items.json';
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
   const [selectedVideoIndex, setSelectedVideoIndex] = useState<number | null>(null); 
   const [isGalleryVisible, setIsGalleryVisible] = useState(true);

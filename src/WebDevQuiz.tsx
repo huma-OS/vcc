@@ -66,7 +66,7 @@ const WebDevQuiz: React.FC = () => {
             />
             <img
               className="tech-icon"
-              src="/img/icons/npm.svg"
+              src="/img/icons/NPM.svg"
               alt="npm"
             />
              <img
