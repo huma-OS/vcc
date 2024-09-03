@@ -37,6 +37,17 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## add critical css inline stle to the index.html file i one dot com and rea arrange the order of the js and css file after hiting npm build
+
+   <style>
+      /* Critical CSS here */
+      body {
+        font-family: 'Teko', sans-serif;
+      }
+    </style>
+     <link href="/static/css/main.c2ec3e11.css" rel="stylesheet">
+  <script defer="defer" src="/static/js/main.0e28294b.js"></script>
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -55,3 +66,5 @@ once you have populated the file run the above in the terminal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+

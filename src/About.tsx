@@ -60,7 +60,7 @@ const About = () => {
             />
              <img
               className="tech-icon"
-              src="img/icons/jest.svg"
+              src="img/icons/Jest.svg"
               alt="jest"
             />
              <img
@@ -75,7 +75,7 @@ const About = () => {
             />
             <img
               className="tech-icon"
-              src="img/icons/npm.svg"
+              src="img/icons/NPM.svg"
               alt="npm"
             />
              <img
@@ -90,12 +90,12 @@ const About = () => {
             />
             <img
               className="tech-icon"
-              src="img/icons/jira.svg"
+              src="img/icons/Jira.svg"
               alt="jira"
             />
             <img
               className="tech-icon"
-              src="img/icons/storybook.svg"
+              src="img/icons/Storybook.svg"
               alt="storybook"
             />
             <img
@@ -164,7 +164,9 @@ const About = () => {
           <p className="about-text">
             I’m dedicated to creativity, technical excellence, and effective communication. Whether collaborating on design mock-ups or leading cross-functional teams, I aim to deliver quality and strategic insight. I’m passionate about leveraging my diverse experiences to contribute to the success of my clients and projects.
           </p>
-          <p className="about-text">Let’s connect and create something exceptional together.</p>
+          <p className="about-text">
+            Let’s connect and create something exceptional together. <a href="https://www.instagram.com/okothsimonhuma/" target="_blank" rel="noopener noreferrer"><b>follow me on Instagram</b></a> and DM me or use the contact link in the menu
+          </p>
         </div>
       </div>
       </>

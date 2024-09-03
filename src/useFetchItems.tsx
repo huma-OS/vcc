@@ -25,11 +25,13 @@ const useFetchItems = <T extends Item>(endpoint: string, filterFn: FilterFn<T>) 
         }
         const data = await res.json();
 
-        if (!Array.isArray(data)) {
+        // if (!Array.isArray(data)) {
+        if (!data.items || !Array.isArray(data.items)) {
           throw new Error('Unexpected data format');
         }
 
-        const filteredItems = filterFn(data);
+        // const filteredItems = filterFn(data);
+        const filteredItems = filterFn(data.items);
         setItems(filteredItems);
         setIsPending(false);
       } catch (err) {

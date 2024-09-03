@@ -10,7 +10,7 @@ interface HomeSlide {
 }
 
 const Home: React.FC = () => {
-  const endpoint = 'http://localhost:8000/items';
+  const endpoint = 'https://gist.githubusercontent.com/huma-OS/b3de1ec34662bb077ba2b6b83eccd780/raw/1b48eabaf138731d856a01a1db996990dc1e4128/items.json';
   const filterFn = (items: HomeSlide[]) => items.filter(item => item.category === 'HOME');
   const { items: homeSlides, isPending, error } = useFetchItems<HomeSlide>(endpoint, filterFn);
 
