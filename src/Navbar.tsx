@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
   };
 
 return (
-<nav className="navbar">
+<nav className="navbarz webdevhov">
   <div className="osh-header-titles-all">
     <a href="http://okothsimonhuma.com/" className="header-brand-link">
       <img src="/img/LOGOOOOOO.png" alt="" className="brand-icon-header" />
