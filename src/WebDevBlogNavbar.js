@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const WebDevBlogNavbar = () => {
   return ( 
-    <nav className="navbar">
+    <nav className="navbarz">
     <h1>The Dojo Blogs</h1>
     <div className="links">
       <Link to="/">Home</Link>

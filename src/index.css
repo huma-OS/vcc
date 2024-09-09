@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
-@import url('//fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/ailerons');
 
 /* base styles */
@@ -10,12 +10,12 @@
   color: #333;
 }
 
-.navbar {
+.navbarz {
   display: flex;
   align-content: center;
   align-items: center;
-  margin: 0 0 28px;
   justify-content: space-between;
+  margin: 0 0 28px;
   max-width: 100%;
 }
 
@@ -37,7 +37,9 @@ img.brand-icon-header {
   }
 }
 
-.navbar h1 {
+
+
+.navbarz h1 {
   letter-spacing: 3.5px;
   font-weight: 400;
   font-size: 26px;
@@ -45,14 +47,14 @@ img.brand-icon-header {
   line-height: 19px;
 }
 
-.navbar p {
+.navbarz p {
   letter-spacing: 1px;
   font-size: 16px;
   text-align: center;
   margin: 0;
 }
 
-.navbar a {
+.navbarz a {
   text-decoration: none;
   padding: 6px;
 }
@@ -226,7 +228,7 @@ img.brand-icon {
 
 /* //DESKTOP// */
 @media (min-width: 770px) {
-  .navbar {
+  .navbarz {
     align-items: flex-end;
     margin: 0 30px 10px;
   }
@@ -240,14 +242,14 @@ img.brand-icon {
     width: 100%;
   }
 
-  .navbar h1 {
+  .navbarz h1 {
     letter-spacing: 3.5px;
     font-size: 59px;
     margin: 30px 0 0;
     line-height: 40px;
   }
 
-  .navbar p {
+  .navbarz p {
     letter-spacing: 7.5px;
     font-size: 15.5px;
   }
@@ -261,6 +263,21 @@ img.brand-icon {
     margin: 30px auto;
   }
 }
+
+@media (max-width: 375px) and ( min-width: 320px) {
+  nav.webdevhov {
+    padding: 0!important;
+  }
+  img.brand-icon-header {
+    padding: 0 1px 0 0! important;
+}
+/* .osh-header-menu-btn {
+  justify-content: space-between;
+} */
+  }
+
+
+
 
 /* //end base styles// */
 
@@ -372,8 +389,8 @@ img.slide-model-element-img.portrait {
 }
 
 .slide-shadow {
-  background: linear-gradient(145deg, #e9e8e8, #e9e8e8);
-  box-shadow: 20px 20px 60px #c6c5c5, -20px -20px 60px #ffffff;
+  background: linear-gradient(145deg, #e9e8e8, #ffffff);
+  box-shadow: 20px 20px 60px #c6c5c5, -20px -20px 60px #f0f0f0;
 }
 
 /* loading skeleton */
@@ -402,11 +419,35 @@ img.slide-model-element-img.portrait {
   animation: 1s loading ease-in-out infinite;
 }
 
-figure.slide-model-elements.card.loading {
-  filter: none;
+@keyframes loading {
+  to {
+    background-position-x: -20%;
+  }
 }
 
-@keyframes loading {
+/* //place holder image */
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.placeholder-shimmer {
+  background-color: var(--loading-grey);
+  background: linear-gradient(100deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, .5) 50%,
+      rgba(255, 255, 255, 0) 60%) var(--loading-grey);
+  background-size: 200% 100%;
+  background-position-x: 180%;
+  animation: 1s shimmer ease-in-out infinite;
+}
+
+@keyframes shimmer {
   to {
     background-position-x: -20%;
   }
@@ -509,6 +550,10 @@ h2.titles-title {
   img.slide-model-element-img-photo {
     width: 62%;
   }
+}
+
+picture {
+  background: none;
 }
 
 /* DESKTOP */
@@ -630,6 +675,13 @@ h2.titles-title {
 }
 
 
+@media (max-width: 425px) {
+  .close-button {
+    right: 10px;
+    top: 10px;;
+}
+}
+
 .carousel .slide {
   display: flex;
   justify-content: center;
@@ -707,34 +759,6 @@ h2.titles-title {
     background: none!important;
     z-index: 2001;
 }
-}
-
-/* //place holder image */
-
-.placeholder {
-  width: 100%;
-  height: 100%;
-  background-color: #f0f0f0;
-  position: relative;
-  overflow: hidden;
-  border-radius: 4px;
-}
-
-.placeholder-shimmer {
-  background-color: var(--loading-grey);
-  background: linear-gradient(100deg,
-      rgba(255, 255, 255, 0) 40%,
-      rgba(255, 255, 255, .5) 50%,
-      rgba(255, 255, 255, 0) 60%) var(--loading-grey);
-  background-size: 200% 100%;
-  background-position-x: 180%;
-  animation: 1s loading ease-in-out infinite;
-}
-
-@keyframes shimmer {
-  to {
-    background-position-x: -20%;
-  }
 }
 
 

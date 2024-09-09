@@ -39,7 +39,7 @@ const WebDevQuiz: React.FC = () => {
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossOrigin="anonymous"
         />
-        <link rel="stylesheet" type="text/css" href="/hov.css" />
+        <link rel="stylesheet" type="text/css" href="/index.css" />
       </div>
       <div className="quiz-body">
       <div className="tech-stack-icons web-dev-icons">
@@ -91,7 +91,7 @@ const WebDevQuiz: React.FC = () => {
         {/* Result section */}
         <div className="result py-4 d-none bg-light text-center osh">
           <div className="container lead">
-            <p>
+            <p className="hovresult">
               You are <span className="text-primary display-4 p-3">0%</span>
               certified ROC
             </p>

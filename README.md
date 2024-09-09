@@ -37,7 +37,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## add critical css inline stle to the index.html file i one dot com and rea arrange the order of the js and css file after hiting npm build
+## add critical css inline stle to the index.html file i one dot com and rea arrange the order of the js and css file after hiting npm build and add htaccess file with out suffix to one.com too for url navigation via type in address bar
+
+ <meta name="description" content="Experienced visual communication consultant specializing in digital project management, creative implementation, and consulting. Expertise in event videography, product and portrait photography, branding and graphic design, and art direction. Also offers web development services, including frontend projects and digital transformation." />
 
    <style>
       /* Critical CSS here */
