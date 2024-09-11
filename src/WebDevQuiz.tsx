@@ -41,7 +41,7 @@ const WebDevQuiz: React.FC = () => {
       e.currentTarget.q20.value,
     ];
 
-    const correctAnswers = window.correctAnswers || ['A', 'D', 'C', 'B', 'B', 'A', 'D', 'C', 'D', 'B', 'B', 'B', 'A', 'B', 'D', 'A', 'C', 'A', 'D', 'B' ];
+    const correctAnswers = window.correctAnswers || ['A', 'D', 'C', 'B', 'B', 'A', 'D', 'C', 'D', 'D', 'B', 'B', 'A', 'B', 'D', 'A', 'C', 'A', 'D', 'B' ];
 
     userAnswers.forEach((answer, index) => {
       if (answer === correctAnswers[index]) {
