@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
-@import url('http://fonts.cdnfonts.com/css/ailerons');
+@import url('http://fonts.cdnfonts.com/css/ailerons&display=swap');
 
 /* base styles */
 * {
@@ -478,9 +478,9 @@ ul.slide-models.gallery {
   }
   
 @media (min-width: 1279px) {
-  .slide-models {
+  /* .slide-models {
     max-width: 88vw;
-  }
+  } */
 
   .slide-model {
     width: 354px;
@@ -928,6 +928,28 @@ a:hover {
 a:active { 
   text-decoration: none!important; 
 }
+
+div.incorrect {
+  background: red! important;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 1s infinite;
+  color: #28a745; /* Optional: Change color to green for 100% */
+}
+
   /* QUIZ-END */
 
   /* AFRICA-START */
