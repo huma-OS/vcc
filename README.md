@@ -47,6 +47,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
         font-family: 'Teko', sans-serif;
       }
     </style>
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" as="style">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap">
      <link href="/static/css/main.c2ec3e11.css" rel="stylesheet">
   <script defer="defer" src="/static/js/main.0e28294b.js"></script>
 
