@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import VideoModal from "./VideoModal";
 
 interface GallerySlide {
   category?: string;
@@ -34,12 +33,12 @@ const GalleryList: React.FC<GalleryListProps> = ({ gallerySlides, onImageClick }
           <figure className="slide-model-elements">
             <picture>
               <source 
-                srcSet={gallerySlide.imgUrlWebp} 
+                srcSet={`${gallerySlide.imgUrlWebp} 480w, ${gallerySlide.imgUrlWebp} 800w, ${gallerySlide.imgUrlWebp} 1200w`} 
                 type="image/webp" 
                 sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px"
               />
               <source 
-                srcSet={gallerySlide.imgUrl} 
+                srcSet={`${gallerySlide.imgUrl} 480w, ${gallerySlide.imgUrl} 800w, ${gallerySlide.imgUrl} 1200w`}  
                 sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px"
               />
               <img 
@@ -60,12 +59,12 @@ const GalleryList: React.FC<GalleryListProps> = ({ gallerySlides, onImageClick }
             <figure className="slide-model-elements">
               <picture>
                 <source 
-                  srcSet={gallerySlide.imgUrlWebp} 
+                  srcSet={`${gallerySlide.imgUrlWebp} 480w, ${gallerySlide.imgUrlWebp} 800w, ${gallerySlide.imgUrlWebp} 1200w`} 
                   type="image/webp" 
                   sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px"
                 />
                 <source 
-                  srcSet={gallerySlide.imgUrl} 
+                  srcSet={`${gallerySlide.imgUrl} 480w, ${gallerySlide.imgUrl} 800w, ${gallerySlide.imgUrl} 1200w`}  
                   sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px"
                 />
                 <img 
@@ -89,12 +88,12 @@ const GalleryList: React.FC<GalleryListProps> = ({ gallerySlides, onImageClick }
         <figure className="slide-model-elements">
           <picture>
             <source 
-              srcSet={gallerySlide.imgUrlWebp} 
+              srcSet={`${gallerySlide.imgUrlWebp} 480w, ${gallerySlide.imgUrlWebp} 800w, ${gallerySlide.imgUrlWebp} 1200w`} 
               type="image/webp" 
               sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px"
             />
             <source 
-              srcSet={gallerySlide.imgUrl} 
+              srcSet={`${gallerySlide.imgUrl} 480w, ${gallerySlide.imgUrl} 800w, ${gallerySlide.imgUrl} 1200w`}  
               sizes="(max-width: 480px) 480px, (max-width: 800px) 800px, 1200px"
             />
             <img 

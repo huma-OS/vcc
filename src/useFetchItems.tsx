@@ -16,9 +16,17 @@ const useFetchItems = <T extends Item>(endpoint: string, filterFn: FilterFn<T>) 
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+     // Check cache
+     const cachedData = localStorage.getItem(endpoint);
+     if (cachedData) {
+       const parsedData = JSON.parse(cachedData);
+       setItems(filterFn(parsedData.items));
+       setIsPending(false);
+       return;
+     }
+
     const fetchData = async () => {
       try {
-
         const res = await fetch(endpoint);
         if (!res.ok) {
           throw new Error('Could not fetch the data for that resource');
@@ -29,6 +37,9 @@ const useFetchItems = <T extends Item>(endpoint: string, filterFn: FilterFn<T>) 
         if (!data.items || !Array.isArray(data.items)) {
           throw new Error('Unexpected data format');
         }
+
+        // Cache response
+        localStorage.setItem(endpoint, JSON.stringify(data));
 
         // const filteredItems = filterFn(data);
         const filteredItems = filterFn(data.items);

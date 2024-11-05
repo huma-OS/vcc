@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap');
-@import url('http://fonts.cdnfonts.com/css/ailerons&display=swap');
 
 /* base styles */
 * {
   margin: 0;
-  font-family: "Teko", sans-serif;
+  font-family: "Teko",Impact, sans-serif;
   color: #333;
 }
 
@@ -668,6 +667,7 @@ picture {
   border: none;
   padding: 22px;
   z-index: 2001;
+  background: none;
 }
 
 .close-button::before {
@@ -803,6 +803,7 @@ position: fixed;
   border: none;
   padding: 22px;
   z-index: 9;
+  background: none;
 }
 
 .video-modal-close-button::before {
@@ -847,7 +848,7 @@ position: fixed;
   /* QUIZ-START */
   body .quiz-body {
     background-color: #e9e8e8 !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", impact !important;
   }
 
   .result.py-4.bg-light.text-center.osh {
