@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { useParams } from "react-router-dom";
 import useFetchItems from "./useFetchItems";
 import GalleryList from "./GalleryList";
@@ -15,7 +15,6 @@ interface GallerySlide {
   url?: string;
   videoUrl?: string;
 }
-
 const Gallery: React.FC = () => {
   const { category } = useParams<{ category: string }>();
   const endpoint = 'https://gist.githubusercontent.com/huma-OS/b3de1ec34662bb077ba2b6b83eccd780/raw/1b48eabaf138731d856a01a1db996990dc1e4128/items.json';
@@ -24,9 +23,9 @@ const Gallery: React.FC = () => {
   const [isGalleryVisible, setIsGalleryVisible] = useState(true);
 
 
-  const filterFn = (items: GallerySlide[]) => {
+  const filterFn = useCallback((items: GallerySlide[]) => {
     return items.filter(item => item.category === category);
-  };
+  }, [category]);
 
   const { items: gallerySlides, isPending, error } = useFetchItems(endpoint, filterFn);
 
@@ -92,4 +91,4 @@ const Gallery: React.FC = () => {
   );
 }
  
-export default Gallery;
+export default React.memo(Gallery);
