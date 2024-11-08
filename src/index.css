@@ -4,7 +4,7 @@
 /* base styles */
 * {
   margin: 0;
-  font-family: "Teko",Impact, sans-serif;
+  font-family: "Teko",Oswald, sans-serif;
   color: #333;
 }
 
@@ -939,6 +939,11 @@ a:active {
 
 div.incorrect {
   background: red! important;
+}
+
+div.missed {
+  background: darkorange ! important;
+  font-size: 20px;
 }
 
 @keyframes pulse {
